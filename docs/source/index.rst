@@ -1,15 +1,10 @@
 :github_url: https://github.com/PaddlePaddle/Fleet
 
-.. mdinclude:: md/logo.md
+.. mdinclude:: md/title.md
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Quick Start
+.. mdinclude:: md/install.md
 
-    install_and_quickstart_example.rst
-    train_imagenet_resnet50_in_5mins.rst
-
-.. mdinclude:: md/install_and_quickstart_example.md
+.. mdinclude:: md/resnet50.md
 
 
 The Team
