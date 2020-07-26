@@ -2,9 +2,34 @@
 
 .. mdinclude:: md/title.md
 
-.. mdinclude:: md/install.md
+.. toctree::
+   :maxdepth: 1
+   :caption: Fleet API in PaddlePaddle
+   :name: paddle-fleet-introduction
 
-.. mdinclude:: md/resnet50.md
+   paddle_fleet/install
+   paddle_fleet/fleet_quick_start
+   paddle_fleet/fleet_api_overview
+   paddle_fleet/fleet_ps_sync_and_async
+   paddle_fleet/fleet_ps_geo_async
+   paddle_fleet/fleet_collective_training_scalability
+   paddle_fleet/fleet_dgc_on_cloud
+   paddle_fleet/fleet_large_batch_training_techniques
+   paddle_fleet/fleet_and_edl_for_distillation
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: An easy-to-use distributed training tool Fleet-Lightning
+   :name: fleet-lightning
+
+   fleet_lightning/install
+   fleet_lightning/resnet50_example
+   fleet_lightning/ernie_example
+   fleet_lightning/word2vec_example
+   fleet_lightning/semantic_matching_example
+
+
 
 
 The Team
