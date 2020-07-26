@@ -1,6 +1,6 @@
 :github_url: https://github.com/PaddlePaddle/Fleet
 
-.. mdinclude:: md/title.md
+.. mdinclude:: common/title.md
 
 .. toctree::
    :maxdepth: 1
