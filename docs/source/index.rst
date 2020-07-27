@@ -4,7 +4,7 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Fleet API in PaddlePaddle
+   :caption: Distributed Training with Fleet in PaddlePaddle
    :name: paddle-fleet-introduction
 
    paddle_fleet/install
@@ -16,11 +16,13 @@
    paddle_fleet/fleet_dgc_on_cloud
    paddle_fleet/fleet_large_batch_training_techniques
    paddle_fleet/fleet_and_edl_for_distillation
+   paddle_fleet/fleet_model_parallel
+   paddle_fleet/fleet_pipeline_parallel
 
 
 .. toctree::
    :maxdepth: 1
-   :caption: An easy-to-use distributed training tool Fleet-Lightning
+   :caption: Fleet-Lightning: Training with Pre-Defined Distributed Model
    :name: fleet-lightning
 
    fleet_lightning/install
