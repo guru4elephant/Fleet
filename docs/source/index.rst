@@ -2,14 +2,29 @@
 
 .. mdinclude:: common/title.md
 
-.. toctree::
+.. mdinclude::
    :maxdepth: 1
-   :caption: Distributed Training with Fleet in PaddlePaddle
-   :name: paddle-fleet-introduction
+   :caption: 新手上用
+   :name: new-users
 
    paddle_fleet/install
    paddle_fleet/fleet_quick_start
+   paddle_fleet/fleet_lightning
+   paddle_fleet/fleet_benchmark
+
+.. mdinclude::
+   :maxdepth: 1
+   :caption: Fleet API 文档
+   :name: fleet-api
+
    paddle_fleet/fleet_api_overview
+
+
+.. mdinclude::
+   :maxdepth: 1
+   :caption: 进阶用法
+   :name: advanced-users
+
    paddle_fleet/fleet_ps_sync_and_async
    paddle_fleet/fleet_ps_geo_async
    paddle_fleet/fleet_collective_training_scalability
@@ -19,19 +34,11 @@
    paddle_fleet/fleet_model_parallel
    paddle_fleet/fleet_pipeline_parallel
 
-
-.. toctree::
+.. mdinclude::
    :maxdepth: 1
-   :caption: Fleet-Lightning: Training with Pre-Defined Distributed Model
-   :name: fleet-lightning
+   :caption: 工业案例分享
 
-   fleet_lightning/install
-   fleet_lightning/resnet50_example
-   fleet_lightning/ernie_example
-   fleet_lightning/word2vec_example
-   fleet_lightning/semantic_matching_example
-
-
+   paddle_fleet/fleet_from_training_to_serving
 
 
 The Team
