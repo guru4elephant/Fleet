@@ -4,7 +4,7 @@
 
 .. mdinclude::
    :maxdepth: 1
-   :caption: 新手上用
+   :caption: Quick Start
    :name: new-users
 
    paddle_fleet/install
@@ -14,7 +14,7 @@
 
 .. mdinclude::
    :maxdepth: 1
-   :caption: Fleet API 文档
+   :caption: Fleet API Documentation
    :name: fleet-api
 
    paddle_fleet/fleet_api_overview
@@ -22,7 +22,7 @@
 
 .. mdinclude::
    :maxdepth: 1
-   :caption: 进阶用法
+   :caption: Advanced Usage
    :name: advanced-users
 
    paddle_fleet/fleet_ps_sync_and_async
@@ -36,7 +36,7 @@
 
 .. mdinclude::
    :maxdepth: 1
-   :caption: 工业案例分享
+   :caption: Industrial Applications
 
    paddle_fleet/fleet_from_training_to_serving
 
