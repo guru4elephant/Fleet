@@ -2,7 +2,7 @@
 
 .. mdinclude:: common/title.md
 
-.. mdinclude::
+.. toctree::
    :maxdepth: 1
    :caption: Quick Start
    :name: new-users
@@ -12,15 +12,14 @@
    paddle_fleet/fleet_lightning
    paddle_fleet/fleet_benchmark
 
-.. mdinclude::
+.. toctree::
    :maxdepth: 1
    :caption: Fleet API Documentation
    :name: fleet-api
 
    paddle_fleet/fleet_api_overview
 
-
-.. mdinclude::
+.. doctree::
    :maxdepth: 1
    :caption: Advanced Usage
    :name: advanced-users
@@ -34,7 +33,7 @@
    paddle_fleet/fleet_model_parallel
    paddle_fleet/fleet_pipeline_parallel
 
-.. mdinclude::
+.. toctree::
    :maxdepth: 1
    :caption: Industrial Applications
 
