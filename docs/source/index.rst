@@ -19,7 +19,7 @@
 
    paddle_fleet/fleet_api_overview
 
-.. doctree::
+.. toctree::
    :maxdepth: 1
    :caption: Advanced Usage
    :name: advanced-users
